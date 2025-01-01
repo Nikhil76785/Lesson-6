@@ -1,0 +1,33 @@
+<html>
+    
+    <head>
+        <title>Forms in Html</title>
+    </head>
+
+    <body>
+        <h1>Personal Details</h1><br>
+
+        <form>
+
+            <label>Name</label><br>
+            <input type="text" id="name"><br><br>
+            <label>E-Mail Address</label><br>
+            <input type="text" id="email"><br><br>
+            <label>Contact Number</label><br>
+            <input type="password" id="contact"><br><br>
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="Male">Male<br>
+            <input type="radio" id="female" name="gender" value="Female">Female<br><br>
+            <label>Favourite City</label><br>
+            <input type="checkbox" id="city" value="New Delhi">New Delhi<br>
+            <input type="checkbox" id="city" value="Mumbai">Mumbai<br>
+            <input type="checkbox" id="city" value="Hyderabad">Hyderabad<br>
+            <input type="checkbox" id="city" value="Chennai">Chennai<br>
+            <input type="checkbox" id="city" value="Lucknow">Lucknow<br>
+            <input type="checkbox" id="city" value="Bengaluru">Bengaluru<br><br>
+            <input type="submit">
+
+        </form>
+    </body>
+
+</html>
