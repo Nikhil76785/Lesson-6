@@ -1,0 +1,29 @@
+<html>
+    <head><title>Marks</title></head>
+    <body>
+        <h1>Enter Your Marks</h1>
+        <form>
+            <select name="Subject" id="subject">
+        <option value="Maths">Maths</option>
+        <option value="Science">Science</option>
+        <option value="English">English</option>
+            </select>
+            <input type="number" id="m1" name="m1"><br><br>
+
+            <select name="Subject2" id="subject2">
+                <option value="Maths">Maths</option>
+                <option value="Science">Science</option>
+                <option value="English">English</option>
+            </select>
+            <input type="number" id="m2" name="m2"><br><br>
+
+            <select name="Subject3" id="subject3">
+                <option value="Maths">Maths</option>
+                <option value="Science">Science</option>
+                <option value="English">English</option>
+            </select>
+            <input type="number" id="m3" name="m3"><br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
