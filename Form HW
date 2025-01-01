@@ -1,0 +1,47 @@
+<html>
+    
+    <head>
+        <title>Forms in Html</title>
+    </head>
+
+    <body>
+        <h1>Personal Details</h1><br>
+
+        <form>
+
+            <label>First Name</label><br>
+            <input type="text" id="fname"><br><br>
+            <label>Last Name</label><br>
+            <input type="text" id="lname"><br><br>
+            <label>E-Mail Address</label><br>
+            <input type="text" id="email"><br><br>
+            <label>Contact Number</label><br>
+            <input type="password" id="contact"><br><br>
+            <label>Gender</label><br>
+            <input type="radio" id="male" name="gender" value="Male">Male<br>
+            <input type="radio" id="female" name="gender" value="Female">Female<br><br>
+            <label>Favourite City</label><br>
+            <input type="checkbox" id="city" value="New Delhi">New Delhi<br>
+            <input type="checkbox" id="city" value="Mumbai">Mumbai<br>
+            <input type="checkbox" id="city" value="Hyderabad">Hyderabad<br>
+            <input type="checkbox" id="city" value="Chennai">Chennai<br>
+            <input type="checkbox" id="city" value="Lucknow">Lucknow<br>
+            <input type="checkbox" id="city" value="Bengaluru">Bengaluru<br><br>
+            <label>Favourite Food</label><br>
+            <input type="text" id="food"><br><br>
+            <label>Favourite Colour</label><br>
+            <input type="text" id="colour"><br><br>
+            <label>Weight</label><br>
+            <input type="text" id="weight"><br><br>
+            <label>Age</label><br>
+            <input type="password" id="age"><br><br>
+            <label>Salary</label><br>
+            <input type="password" id="salary"><br><br>
+            <label>Car Brand</label><br>
+            <input type="text" id="car"><br><br>
+            <input type="submit">
+
+        </form>
+    </body>
+
+</html>
